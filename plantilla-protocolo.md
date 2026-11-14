@@ -106,10 +106,10 @@ Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, 
 
 | Factor a controlar | Cómo se controla o registra |
 |---|---|
-| 1. | Clima | 
-| 2. | Evento Local |
-| 3. | Surtido / Stock|
-| 4. | Cambios en el personal|
+| Clima | Se registra por ciudad y semana. Como cada tienda pasa por las dos ubicaciones, el clima afecta a ambas |
+| Evento local | Se registran feriados y eventos por tienda y semana; la semana afectada se marca para el análisis |
+| Surtido / stock | Se revisa el inventario del producto cada semana y se repone para evitar quiebres |
+| Cambios en el personal | Se registra la rotación del personal por tienda y semana |
 
 ## 8. Limitaciones del diseño
 
