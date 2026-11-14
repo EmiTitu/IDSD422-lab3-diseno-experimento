@@ -1,6 +1,6 @@
 # Plantilla de protocolo — Experimento de ubicación de producto
 
-**Equipo:** ___ · **Integrantes:** ___ · **Fecha:** 13/11/2026
+**Nombre:** Emily Pauleth Tituaña Pulupa· **Fecha:** 13/11/2026
 
 Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
 
