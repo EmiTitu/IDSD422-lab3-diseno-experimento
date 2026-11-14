@@ -99,7 +99,7 @@ Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, 
 ## 6. Respuesta y medición
 
 - Variable respuesta: Ventas semanales en USD
-- Período de medición: 4 semanas
+- Período de medición: 4 semanas con 2 semanas en cada ubicación por tienda.
 - Quién registra y cómo (¿ciego?): Mediante el punto de venta POS, ciego (vendedor no sabria si el producto esta en principal o habitual).
 
 ## 7. Factores a controlar (mínimo 4)
