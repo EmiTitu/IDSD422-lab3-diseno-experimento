@@ -22,7 +22,7 @@ La unidad experimental es una Semana - Tienda (**# de tiendas x # de semanas**)
 ## 3. Factor, niveles y tratamiento
 
 - **Factor** (variable manipulada): Ubicaciond del producto
-- **Niveles** (valores del factor): Pasillo principal y el habitual.
+- **Niveles** (valores del factor): Pasillo_principal y el habitual.
 - **Tratamiento** (combinación asignada): pasillos durante una semana y ubicacion habitual durante otra (grupo de control)
 
 ## 4. Grupo de control
