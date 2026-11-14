@@ -27,7 +27,7 @@ La unidad experimental es una Semana - Tienda (**# de tiendas x # de semanas**)
 
 ## 4. Grupo de control
 
-La misma tienda pero con el producto dispuesto en la ubicacion habitual
+La misma tienda pero con el producto dispuesto en suu bicación habittual.
 
 
 ## 5. Aleatorización
