@@ -114,8 +114,9 @@ Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, 
 ## 8. Limitaciones del diseño
 
 *¿Qué podría invalidar el experimento si no se controla? ¿Qué no se podrá concluir?*
-- Perdida de potencia por promociones 
-- Canibalizacion de las tiendas
+- Pérdida de potencia por promociones simultáneas, que inflan las ventas de esa tienda-semana.
+- Canibalizacion de las tiendas al mover el producto al pasillo principal puede bajar las ventas de otros productos, y este diseño solo mide el producto estrella.
+- Solo 4 semanas y 10 tiendas: el resultado no se puede generalizar a otras ciudades ni temporadas.
 
 ## 9. Comparación en código (Python/R)
 
