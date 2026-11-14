@@ -35,7 +35,66 @@ La misma tienda pero con el producto dispuesto en suu bicación habittual.
 Seria por sorteo, para poder asignar. (ej de las 40 unidades las partimos en la mitad)
 Sorteo de 20 tiendas a cada grupo (paralelo).
 
-- **Línea de código de la asignación (Python o R):** escribe el comando que asigna al azar tus N unidades a los dos grupos (tratamiento y control) y ejecútalo con semilla. Incluye el resultado de una corrida y explica por qué el sorteo reparte los factores desconocidos entre los grupos.
+- Línea de código de la asignación (Python), ejecutada con semilla 1234597:
+
+```python
+rng = np.random.default_rng(1234597)
+primera = rng.choice(["pasillo_principal", "habitual"], size=len(tiendas))
+```
+
+Script completo: `scripts/asignacion_aleatoria.py`. Resultado de una corrida:
+
+| tienda | semana | ubicacion |
+|---|---|---|
+| Quito Norte | 1 | habitual |
+| Quito Norte | 2 | pasillo_principal |
+| Quito Norte | 3 | habitual |
+| Quito Norte | 4 | pasillo_principal |
+| Quito Sur | 1 | pasillo_principal |
+| Quito Sur | 2 | habitual |
+| Quito Sur | 3 | pasillo_principal |
+| Quito Sur | 4 | habitual |
+| Guayaquil Centro | 1 | habitual |
+| Guayaquil Centro | 2 | pasillo_principal |
+| Guayaquil Centro | 3 | habitual |
+| Guayaquil Centro | 4 | pasillo_principal |
+| Guayaquil Norte | 1 | pasillo_principal |
+| Guayaquil Norte | 2 | habitual |
+| Guayaquil Norte | 3 | pasillo_principal |
+| Guayaquil Norte | 4 | habitual |
+| Cuenca Centro | 1 | pasillo_principal |
+| Cuenca Centro | 2 | habitual |
+| Cuenca Centro | 3 | pasillo_principal |
+| Cuenca Centro | 4 | habitual |
+| Cuenca Sur | 1 | habitual |
+| Cuenca Sur | 2 | pasillo_principal |
+| Cuenca Sur | 3 | habitual |
+| Cuenca Sur | 4 | pasillo_principal |
+| Ambato Centro | 1 | habitual |
+| Ambato Centro | 2 | pasillo_principal |
+| Ambato Centro | 3 | habitual |
+| Ambato Centro | 4 | pasillo_principal |
+| Manta | 1 | habitual |
+| Manta | 2 | pasillo_principal |
+| Manta | 3 | habitual |
+| Manta | 4 | pasillo_principal |
+| Loja | 1 | habitual |
+| Loja | 2 | pasillo_principal |
+| Loja | 3 | habitual |
+| Loja | 4 | pasillo_principal |
+| Machala | 1 | pasillo_principal |
+| Machala | 2 | habitual |
+| Machala | 3 | pasillo_principal |
+| Machala | 4 | habitual |
+
+Conteo por ubicación: habitual = 20, pasillo_principal = 20.
+
+![Asignación aleatoria, parte 1](capturas/asignacion_aleatoria_1.png)
+
+![Asignación aleatoria, parte 2](capturas/asignacion_aleatoria_2.png)
+
+
+Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, los factores que no controlamos ni conocemos (clima, eventos locales, temporada, estado del personal). Sortear con qué nivel empieza cada tienda evita que una ubicación caiga siempre en las mismas semanas, y como cada tienda se compara consigo misma, las diferencias entre tiendas no distorsionan el resultado. La semilla hace el sorteo reproducible.
 
 ## 6. Respuesta y medición
 
