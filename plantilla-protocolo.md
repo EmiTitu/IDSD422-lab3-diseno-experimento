@@ -1,25 +1,28 @@
 # Plantilla de protocolo — Experimento de ubicación de producto
 
-**Equipo:** ___ · **Integrantes:** ___ · **Fecha:** 27/10/2026
+**Equipo:** ___ · **Integrantes:** ___ · **Fecha:** 13/11/2026
 
 Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
 
 ## 1. Pregunta e hipótesis
 
-El producto en el pasillo principal vende más en promedio que su ubicacion habitual en ventas semanales.
+¿Cambiar la ubicación del producto estrella al pasillo principal aumenta sus ventas?
+
+Hipótesis: el producto ubicado en el pasillo principal tiene un promedio de ventas semanales (USD por tienda) mayor que cuando está en su ubicación habitual.
 
 ## 2. Unidad experimental
 
 
-Semana - Tienda (**# de tiendas x # de semanas**)
+La unidad experimental es una Semana - Tienda (**# de tiendas x # de semanas**)
 
 - 10 tiendas x 4 semanas = 40 unidades 
+- Cada tienda aparece en las dos condiciones, así que sirve como su propio punto de comparación.
 
 
 ## 3. Factor, niveles y tratamiento
 
-- **Factor** (variable manipulada): Ubicacion 
-- **Niveles** (valores del factor): Pasillo y habitual 
+- **Factor** (variable manipulada): Ubicaciond del producto
+- **Niveles** (valores del factor): Pasillo principal y el habitual.
 - **Tratamiento** (combinación asignada): pasillos durante una semana y ubicacion habitual durante otra (grupo de control)
 
 ## 4. Grupo de control
@@ -61,7 +64,7 @@ Sorteo de 20 tiendas a cada grupo (paralelo).
 
 - ¿Qué grupo muestra mayor venta promedio en la plantilla?
 
-El pasillo nuestra 1335 USD en venta frente a 1049 USD en habitual.
+El pasillo nuestra 1335 USD en venta frente a 1040 USD en habitual.
 
 - ¿Por qué con 4 filas no se puede concluir nada sobre el efecto de la ubicación?
 No se puede concluir porque no hay ninguna asignacion real aleatoria, los datos son muy pocos (4) no tenemos control de temporada, ni promociones en el grupo pasillo y no hay medida de variabilidad.
