@@ -118,15 +118,23 @@ Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, 
 - Canibalizacion de las tiendas al mover el producto al pasillo principal puede bajar las ventas de otros productos, y este diseño solo mide el producto estrella.
 - Solo 4 semanas y 10 tiendas: el resultado no se puede generalizar a otras ciudades ni temporadas.
 
+
 ## 9. Comparación en código (Python/R)
 
-*Escribe `scripts/comparacion_experimento.py` (o `.R`): debe cargar `plantillas/registro_experimento.csv` y calcular el promedio de `ventas_producto` por `ubicacion`. Incluye la salida y responde:*
+Script: `scripts/comparacion_experimento.py`, ejecutado desde la raíz del repositorio con `py scripts/comparacion_experimento.py`.
+
+![Salida del script de comparación](capturas/salida_python.png)
 
 - ¿Qué grupo muestra mayor venta promedio en la plantilla?
 
-El pasillo nuestra 1335 USD en venta frente a 1040 USD en habitual.
+El pasillo principal muestra 1335 USD de venta promedio frente a 1040 USD en la ubicación habitual.
 
 - ¿Por qué con 4 filas no se puede concluir nada sobre el efecto de la ubicación?
-No se puede concluir porque no hay ninguna asignacion real aleatoria, los datos son muy pocos (4) no tenemos control de temporada, ni promociones en el grupo pasillo y no hay medida de variabilidad.
+
+Hay solo 2 registros por grupo y cada grupo tiene tiendas distintas, así que la diferencia puede deberse a la tienda y no a la ubicación. Tampoco hay asignación aleatoria ni medida de variabilidad. Además, una de las dos filas del pasillo principal (Guayaquil Centro) tenía promoción simultánea, lo que infla ese promedio y no se controla.
 
 - Si el experimento se ejecutara con tu protocolo, ¿qué le faltaría a este análisis para ser justo?
+
+Usar las 40 unidades tienda-semana con la asignación aleatoria de la sección 5, de modo que cada tienda pase por las dos condiciones. Con eso se promedia por tienda y se compara pasillo_principal contra habitual con una prueba t pareada, reportando el intervalo de confianza y el valor p. También habría que registrar o controlar promociones, clima, eventos locales y stock.
+No se puede concluir porque no hay ninguna asignacion real aleatoria, los datos son muy pocos (4) no tenemos control de temporada, ni promociones en el grupo pasillo y no hay medida de variabilidad.
+
