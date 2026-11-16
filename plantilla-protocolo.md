@@ -28,7 +28,7 @@ La unidad experimental es una tienda-semana: una tienda observada durante una se
 
 ## 4. Grupo de control
 
-La misma tienda pero con el producto dispuesto en suu bicación habittual.
+La misma tienda pero con el producto dispuesto en su ubicación habittual.
 
 
 ## 5. Aleatorización
@@ -101,7 +101,8 @@ Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, 
 
 - Variable respuesta: Ventas semanales en USD
 - Período de medición: 4 semanas con 2 semanas en cada ubicación por tienda.
-- Quién registra y cómo (¿ciego?): Mediante el punto de venta POS, ciego (vendedor no sabria si el producto esta en principal o habitual).
+- Quién registra y cómo (¿ciego?): Mediante el punto de venta POS, registra automáticamente las ventas del producto cada semana, sin intervención del personal. 
+El ciego es parcial: el personal de la tienda sabe dónde está el producto porque alguien debe moverlo pero no registra ni modifica los datos. Quien analiza los resultados puede trabajar con los grupos codificados, sin saber cuál es el tratamiento hasta terminar el análisis.
 
 ## 7. Factores a controlar (mínimo 4)
 
@@ -111,7 +112,7 @@ Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, 
 | Evento local | Se registran feriados y eventos por tienda y semana; la semana afectada se marca para el análisis |
 | Surtido / stock | Se revisa el inventario del producto cada semana y se repone para evitar quiebres |
 | Cambios en el personal | Se registra la rotación del personal por tienda y semana |
-
+| Promoción simultánea | Se registra en la columna promocion_simultanea del CSV y se analiza con y sin ella |
 ## 8. Limitaciones del diseño
 
 *¿Qué podría invalidar el experimento si no se controla? ¿Qué no se podrá concluir?*
