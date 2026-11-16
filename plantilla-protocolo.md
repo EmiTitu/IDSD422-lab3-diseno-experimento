@@ -12,11 +12,10 @@ Hipótesis: el producto ubicado en el pasillo principal (tratamiento) tiene un p
 
 ## 2. Unidad experimental
 
+La unidad experimental es una tienda-semana: una tienda observada durante una semana que recibe una de las dos ubicaciones (pasillo_principal o habitual).
 
-La unidad experimental es una Semana - Tienda (**# de tiendas x # de semanas**)
-
-- 10 tiendas x 4 semanas = 40 unidades 
-- Cada tienda aparece en las dos condiciones, así que sirve como su propio punto de comparación.
+- N = 10 tiendas x 4 semanas = 40 unidades, 20 en cada ubicación.
+- Justificación: se usa tienda-semana (y no solo tienda) porque cada tienda se observa en las dos condiciones, así que sirve como su propio punto de comparación. Con 10 tiendas se obtienen 10 pares para comparar, y 4 semanas permiten 2 semanas por condición en cada tienda sin alargar demasiado el experimento.
 
 
 ## 3. Factor, niveles y tratamiento
