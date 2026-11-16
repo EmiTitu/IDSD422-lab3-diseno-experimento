@@ -1,8 +1,20 @@
-# Plantilla de protocolo — Experimento de ubicación de producto
+# INFORME DE PRÁCTICA N.º 3
 
-**Nombre:** Emily Pauleth Tituaña Pulupa· **Fecha:** 13/11/2026
+## Laboratorio 3: Diseño de un experimento de ubicación de producto
 
-Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
+
+Asignatura IDSD422 — Estadística y Programación para Ciencia de Datos I
+
+
+| | |
+|---|---|
+| Estudiante | Tituaña Pulupa, Emily Pauleth — usuario de GitHub: EmiTitu |
+| Docente | (nombre del docente) |
+| Período académico | 2026-B |
+| Fecha de entrega | 18/11/2026 |
+| Repositorio (fork) | [https://github.com/EmiTitu/IDSD422-lab3-diseno-experimento.git](https://github.com/EmiTitu/IDSD422-lab3-diseno-experimento.git) |
+
+---
 
 ## 1. Pregunta e hipótesis
 
