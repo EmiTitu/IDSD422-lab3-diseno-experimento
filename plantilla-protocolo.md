@@ -32,8 +32,6 @@ La unidad experimental es una tienda-semana: una tienda observada durante una se
 
 ## 3. Factor, niveles y tratamiento
 
-## 3. Factor, niveles y tratamiento
-
 - **Factor** (variable manipulada): ubicación del producto
 - **Niveles** (valores del factor): `pasillo_principal` y `habitual`
 - **Tratamiento** (combinación asignada): mover el producto de su lugar habitual al pasillo principal durante la semana asignada. Cada tienda recibe el tratamiento 2 de las 4 semanas, en las otras 2 el producto queda en su lugar habitual (control, sección 4).
@@ -54,7 +52,7 @@ Sorteo de 20 tiendas a cada grupo (paralelo).
 rng = np.random.default_rng(1234597)
 primera = rng.choice(["pasillo_principal", "habitual"], size=len(tiendas))
 ```
-
+Nota: `rng.choice` es el método `choice` del generador moderno de NumPy (`np.random.default_rng`). Hace el mismo sorteo aleatorio que `np.random.choice`, y la semilla fija deja el resultado reproducible.
 Script completo: `scripts/asignacion_aleatoria.py`. Resultado de una corrida:
 
 | tienda | semana | ubicacion |
