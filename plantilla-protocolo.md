@@ -102,7 +102,11 @@ Conteo por ubicación: habitual = 20, pasillo_principal = 20.
 
 ![Asignación aleatoria, parte 1](capturas/asignacion_aleatoria_1.png)
 
+*Figura 1. Ejecución de `py scripts/asignacion_aleatoria.py` (parte 1): diseño tienda-semana con la ubicación asignada.*
+
 ![Asignación aleatoria, parte 2](capturas/asignacion_aleatoria_2.png)
+
+*Figura 2. Ejecución de `py scripts/asignacion_aleatoria.py` (parte 2): resto del diseño y conteo de 20 unidades en habitual y 20 en pasillo_principal.*
 
 
 Por qué sortear: el azar reparte entre los dos niveles, en promedio por igual, los factores que no controlamos ni conocemos (clima, eventos locales, temporada, estado del personal). Sortear con qué nivel empieza cada tienda evita que una ubicación caiga siempre en las mismas semanas, y como cada tienda se compara consigo misma, las diferencias entre tiendas no distorsionan el resultado. La semilla hace el sorteo reproducible.
@@ -136,6 +140,8 @@ El ciego es parcial: el personal de la tienda sabe dónde está el producto porq
 Script: `scripts/comparacion_experimento.py`, ejecutado desde la raíz del repositorio con `py scripts/comparacion_experimento.py`.
 
 ![Salida del script de comparación](capturas/salida_python.png)
+
+*Figura 3. Ejecución de `py scripts/comparacion_experimento.py`: promedio de ventas por ubicación (habitual 1040.0; pasillo_principal 1335.0) y 2 registros por grupo.*
 
 - ¿Qué grupo muestra mayor venta promedio en la plantilla?
 
