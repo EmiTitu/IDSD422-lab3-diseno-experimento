@@ -8,7 +8,7 @@ Completa cada sección. Usa commits por sección; la historia del repositorio se
 
 ¿Cambiar la ubicación del producto estrella al pasillo principal aumenta sus ventas?
 
-Hipótesis: el producto ubicado en el pasillo principal tiene un promedio de ventas semanales (USD por tienda) mayor que cuando está en su ubicación habitual.
+Hipótesis: el producto ubicado en el pasillo principal (tratamiento) tiene un promedio de ventas semanales en USD por tienda (respuesta) mayor que cuando está en su ubicación habitual (control), medido durante 4 semanas en 10 tiendas.
 
 ## 2. Unidad experimental
 
