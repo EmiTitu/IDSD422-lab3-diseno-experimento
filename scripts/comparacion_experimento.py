@@ -6,7 +6,7 @@ import pandas as pd
 
 # TODO 1: carga plantillas/registro_experimento.csv con pandas
 df = pd.read_csv("plantillas/registro_experimento.csv")
-print(df.head())
+print(df.head().to_string())
 
 # TODO 2: calcula e imprime el promedio de ventas_producto por ubicacion
 print("\nPromedio de ventas_producto por ubicacion:")
@@ -19,3 +19,6 @@ print(df["ubicacion"].value_counts())
 # TODO 4: escribe 2–3 líneas de interpretación (sección 9 de la plantilla):
 #         por qué con 4 filas no se puede concluir y qué le faltaría al análisis
 
+# Mostrar todas las columnas 
+pd.set_option("display.width", 200)
+pd.set_option("display.max_columns", None)
