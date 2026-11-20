@@ -50,6 +50,7 @@ primera = rng.choice(["pasillo_principal", "habitual"], size=len(tiendas))
 ```
 
 Nota: `rng.choice` es el método `choice` del generador moderno de NumPy (`np.random.default_rng`). Hace el mismo sorteo aleatorio que `np.random.choice`, y la semilla fija deja el resultado reproducible.
+
 Script completo: `scripts/asignacion_aleatoria.py`. Resultado de una corrida:
 
 | tienda           | semana | ubicacion         |
